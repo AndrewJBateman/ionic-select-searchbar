@@ -1,67 +1,73 @@
-import { Component, ViewChild } from '@angular/core';
-import { IonicSelectableComponent } from 'ionic-selectable';
+import { Component, ViewChild } from "@angular/core";
+import { IonicSelectableComponent } from "ionic-selectable";
 
 @Component({
-	selector: 'app-home',
-	templateUrl: 'home.page.html',
-	styleUrls: ['home.page.scss'],
+	selector: "app-home",
+	templateUrl: "home.page.html",
+	styleUrls: ["home.page.scss"],
 })
 export class HomePage {
-
 	users = [
 		{
 			id: 0,
-			name: 'Simon Grimm',
-			country: 'Germany'
+			name: "Simon Grimm",
+			country: "Germany",
 		},
 		{
 			id: 1,
-			name: 'Max Lynch',
-			country: 'Wisconsin'
+			name: "Max Lynch",
+			country: "Wisconsin",
 		},
 		{
 			id: 2,
-			name: 'Mike Hartington',
-			country: 'New York'
-		}
+			name: "Mike Hartington",
+			country: "New York",
+    },
+    {
+			id: 3,
+			name: "Noddy Nemonic",
+			country: "Toronto",
+		},
 	];
 
 	groups = [
-			{
-				name: 'Angular',
-				id: 0,
-				type: 'Framework'
-			},
-			{
-			name: 'React',
+		{
+			name: "Angular",
+			id: 0,
+			type: "Framework",
+		},
+		{
+			name: "React",
 			id: 1,
-			type: 'Framework'
+			type: "Framework",
+    },
+    {
+			name: "Vue",
+			id: 2,
+			type: "Framework",
 		},
 		{
-			name: 'Javascript',
+			name: "Javascript",
 			id: 3,
-			type: 'Language'
+			type: "Language",
 		},
 		{
-			name: 'Swift',
+			name: "Swift",
 			id: 4,
-			type: 'Language'
+			type: "Language",
 		},
 	];
 
-
-	@ViewChild('selectComponent') selectComponent: IonicSelectableComponent;
+	@ViewChild("selectComponent") selectComponent: IonicSelectableComponent;
 	toggle = true;
 	group = null;
 	selected = [];
 	selectedUsers = null;
 
-	constructor() {
+	constructor() {}
 
-	}
-
-	userChanged(event: { component: IonicSelectableComponent, value: any}) {
-		console.log('Selected: ', event);
+	userChanged(event: { component: IonicSelectableComponent; value: any }) {
+		console.log("Selected: ", event);
 	}
 	openFromCode() {
 		this.selectComponent.open();

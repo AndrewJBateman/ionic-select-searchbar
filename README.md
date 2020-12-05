@@ -1,41 +1,43 @@
-# Ionic Select Searchbar
+# :zap: Ionic Select Searchbar
 
-App created using the [Ionic 5 framework](https://ionicframework.com/docs) and the [Ionic Selectable search component](https://www.npmjs.com/package/ionic-selectable) to create a list of selectable elements.
+* App created using the [Ionic 5 framework](https://ionicframework.com/docs) and the [Ionic Selectable search component](https://www.npmjs.com/package/ionic-selectable) to create a list of selectable elements.
+* Tutorial code from [Simon Grimm at the Ionic Acdemy](https://www.youtube.com/channel/UCZZPgUIorPao48a1tBYSDgg) - see [:clap: Inspiration](#clap-inspiration) below
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Ionic Select Searchbar](#zap-ionic-select-searchbar)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features - Ionic Selectable](#cool-features---ionic-selectable)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-* array of data are used to test selectable searches.
+* array of data used to test selectable searches.
 
-## Screenshots
+## :camera: Screenshots
 
 ![image](./img/selectable_search.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Ionic/angular v4.1.0](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic v5](https://ionicframework.com/)
+* [Angular v11](https://angular.io/)
+* [Ionic Selectable v4](https://www.npmjs.com/package/ionic-selectable) An Ionic component similar to Ionic Select, that allows user to search items, including async search, infinite scrolling and more
 
-* [Ionic v5.7.0](https://ionicframework.com/)
+## :floppy_disk: Setup
 
-* [Angular v7.2.0](https://angular.io/)
-
-* [Ionic Selectables v4.4.1](https://www.npmjs.com/package/ionic-selectable)
-
-## Setup
-
+* Run `nm i` to install dependencies
 * To start the server on _localhost://8100_ type: 'ionic serve'
 
-## Code Examples
+## :computer: Code Examples
 
 ```typescript
 <ion-item>
@@ -54,10 +56,9 @@ App created using the [Ionic 5 framework](https://ionicframework.com/docs) and t
 
   </ionic-selectable>
 </ion-item>
-
 ```
 
-## Features - ionic selectable
+## :cool: Features - Ionic Selectable
 
 Features copied from Ionic component [documentation](https://www.npmjs.com/package/ionic-selectable):
 
@@ -74,16 +75,15 @@ Features copied from Ionic component [documentation](https://www.npmjs.com/packa
 * Editing, adding and deleting items
 * Disabling items
 
-## Status & To-do list
+## :clipboard: Status & To-do list
 
-* Status: Working.
+* Status: Working
+* To-do: Nothing
 
-* To-do: try more of the functionality from the Ionic searchable select component.
+## :clap: Inspiration
 
-## Inspiration
+* Project inspired by [Simon Grimm´s Youtube video: Ionic Searchable Select Component Customisation](https://www.youtube.com/watch?v=SO_AWrrmZlY)
 
-Project inspired by [Simon Grimm´s Youtube video: Ionic Searchable Select Component Customisation](https://www.youtube.com/watch?v=SO_AWrrmZlY)
+## :envelope: Contact
 
-## Contact
-
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
