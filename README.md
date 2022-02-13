@@ -21,6 +21,7 @@
   * [:cool: Features - Ionic Selectable](#cool-features---ionic-selectable)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -66,7 +67,7 @@
 
 ## :cool: Features - Ionic Selectable
 
-* Features copied from Ionic component [documentation](https://www.npmjs.com/package/ionic-selectable):
+* **Features copied from Ionic component** [documentation](https://www.npmjs.com/package/ionic-selectable):
 
 * Single selection
 * Multiple selection
