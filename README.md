@@ -1,6 +1,6 @@
 # :zap: Ionic Select Searchbar
 
-* App created using the [Ionic 5 framework](https://ionicframework.com/docs) and the [Ionic Selectable search component](https://www.npmjs.com/package/ionic-selectable) to create a list of selectable elements.
+* App created using the [Ionic framework](https://ionicframework.com/docs) and the [Ionic Selectable search component](https://www.npmjs.com/package/ionic-selectable) to create a list of selectable elements.
 * Tutorial code from [Simon Grimm at the Ionic Acdemy](https://www.youtube.com/channel/UCZZPgUIorPao48a1tBYSDgg) - see [:clap: Inspiration](#clap-inspiration) below
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
@@ -33,14 +33,14 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
-* [Ionic v5](https://ionicframework.com/)
-* [Angular v12](https://angular.io/)
+* [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic v6](https://ionicframework.com/)
+* [Angular v13](https://angular.io/)
 * [Ionic Selectable v4](https://www.npmjs.com/package/ionic-selectable) An Ionic component similar to Ionic Select, that allows user to search items, including async search, infinite scrolling and more
 
 ## :floppy_disk: Setup
 
-* Run `nm i` to install dependencies
+* Run `npm i` to install dependencies
 * To start the server on _localhost://8100_ type: 'ionic serve'
 
 ## :computer: Code Examples
@@ -66,7 +66,7 @@
 
 ## :cool: Features - Ionic Selectable
 
-Features copied from Ionic component [documentation](https://www.npmjs.com/package/ionic-selectable):
+* Features copied from Ionic component [documentation](https://www.npmjs.com/package/ionic-selectable):
 
 * Single selection
 * Multiple selection
@@ -83,7 +83,7 @@ Features copied from Ionic component [documentation](https://www.npmjs.com/packa
 
 ## :clipboard: Status & To-do list
 
-* Status: Working. Updated may 2021.
+* Status: Working
 * To-do: Nothing
 
 ## :clap: Inspiration
