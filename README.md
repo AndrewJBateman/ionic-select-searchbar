@@ -36,8 +36,8 @@
 
 * [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
 * [Ionic v6](https://ionicframework.com/)
-* [Angular v14](https://angular.io/)
-* [Ionic Selectable v4](https://www.npmjs.com/package/ionic-selectable) An Ionic component similar to Ionic Select, that allows user to search items, including async search, infinite scrolling and more
+* [Angular v15](https://angular.io/)
+* [Ionic Selectable v4](https://www.npmjs.com/package/ionic-selectable) An Ionic component similar to Ionic Select, that allows user to search items, including async search, infinite scrolling and more. [@ionic-selectable/angular](https://www.npmjs.com/package/@ionic-selectable/angular) exists but has no documentation so I did not use it.
 
 ## :floppy_disk: Setup
 
